@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["alitaso345"]
   spec.email         = ["a.maruyama@uec.ac.jp"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Simple wrapper for the Annict API}
+  spec.description   = %q{Annict API v1 client library, written in Ruby}
   spec.homepage      = "https://github.com/alitaso345/annict-ruby"
   spec.license       = "MIT"
 
