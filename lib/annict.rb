@@ -1,5 +1,5 @@
-require "annict/version"
+require "faraday"
+require "faraday_middleware"
 
-module Annict
-  # Your code goes here...
-end
+require "annict/version"
+require "annict/client"
