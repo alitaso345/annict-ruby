@@ -32,6 +32,14 @@ module Annict
       send_get("/v1/me", params)
     end
 
+    def change_status(params = {})
+      send_post("/v1/me/statuses", params)
+    end
+
+    def add_record(params = {})
+      send_post("/v1/me/records", params)
+    end
+
     def own_works(params = {})
       send_get("/v1/me/works", params)
     end

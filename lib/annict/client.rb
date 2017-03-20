@@ -14,8 +14,12 @@ module Annict
     end
     attr_reader :access_token
 
-    def send_get(path, params = nil)
+    def send_get(path, params = {})
       send_request(:get, path, params)
+    end
+
+    def send_post(path, params = {})
+      send_request(:post, path, params)
     end
 
     def send_request(method, path, params)
